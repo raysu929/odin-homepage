@@ -4,7 +4,7 @@
   border-radius: 50%;
 }
 body{
-  font-family: "Achivo", sans-serif;
+  font-family: "Archivo", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@ body{
   
 }
 .intro{
-  font-family: "Permanent marker";
+  font-family: "Permanent marker", sans-serif;
   font-size: 1.5rem;
 }
 .projects{
@@ -24,7 +24,7 @@ body{
 }
 
 .container{
-  font-family: "Comic Relief";
+  font-family: "Comic Relief", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -40,12 +40,11 @@ body{
 }
 
 .footer{
-  margin-top: 100px;
+  margin-top: 6rem;
   background-color:black ;
   color: white;
  
 }
-
 .workplace{
   width: 100vw;
   height: 450px;
@@ -69,4 +68,9 @@ a{
 
 .svg{
       filter: invert(1);
+}
+
+.icon{
+  font-size: 30px;
+  padding: 5px;
 }
