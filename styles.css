@@ -4,18 +4,69 @@
   border-radius: 50%;
 }
 body{
-  font-family: "Archivo", sans-serif;
+  font-family: "Achivo", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading{
+  font-family: "Bungee", sans-serif;
+  
+}
+.intro{
+  font-family: "Permanent marker";
+  font-size: 1.5rem;
 }
 .projects{
-  width:700px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   
 }
 
 .container{
-  margin-bottom: 20px;
+  font-family: "Comic Relief";
+  font-size: 1.2rem;
 }
 
 .bold{
   font-weight: bold;
+}
+
+.projects-container{
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  gap: 30px;
+  justify-content: center;
+}
+
+.footer{
+  margin-top: 100px;
+  background-color:black ;
+  color: white;
+ 
+}
+
+.workplace{
+  width: 100vw;
+  height: 450px;
+}
+
+.icons{
+  font-size:1.5rem;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+.svg,
+.svg-link{
+  width: 25px;
+  height: 25px;
+    cursor: pointer;
+}
+
+.svg{
+      filter: invert(1);
 }
