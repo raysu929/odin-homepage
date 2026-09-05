@@ -85,14 +85,16 @@ a{
   grid-template-columns: 1fr;
 }
 .contact{
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 25px;
 }
 .projects{
   width: 90%;
   height: auto;
 }
-.footer{
-  padding-left: 50px;
+
+body{
+  padding-left: 20px;
 }
 }
 
@@ -101,13 +103,15 @@ a{
   grid-template-columns: 1fr;
 }
 .contact{
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 25px;
+
 }
 .workplace{
   width: 95vw;
   height: 250px;
 }
 .footer{
-  padding: 15px;
+  padding: 20px;
 }
 }
