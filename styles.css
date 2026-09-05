@@ -32,17 +32,21 @@ body{
   font-weight: bold;
 }
 
-.projects-container{
+.projects-container,
+.contact{
   display: grid;
   grid-template-columns: repeat(2, 500px);
-  gap: 30px;
   justify-content: center;
+}
+.projects-container{
+  gap: 30px;
 }
 
 .footer{
   margin-top: 6rem;
   background-color:black ;
   color: white;
+ padding: 10px;
  
 }
 .workplace{
@@ -80,12 +84,30 @@ a{
 .projects-container{
   grid-template-columns: 1fr;
 }
+.contact{
+    grid-template-columns: 1fr;
+}
 .projects{
   width: 90%;
   height: auto;
 }
 .footer{
-    padding-left: 50px;
+  padding-left: 50px;
+}
+}
 
+@media screen and (min-width: 769px) and (max-width: 1100px){
+  .projects-container{
+  grid-template-columns: 1fr;
+}
+.contact{
+    grid-template-columns: repeat(2, 350px);
+}
+.workplace{
+  width: 95vw;
+  height: 250px;
+}
+.footer{
+  padding: 15px;
 }
 }
